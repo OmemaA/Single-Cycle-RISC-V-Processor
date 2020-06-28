@@ -47,7 +47,7 @@ begin
     data_mem[37] = 64'd0;
     data_mem[38] = 64'd0;
     data_mem[39] = 64'd0;
-    data_mem[40] = 64'd3;
+    data_mem[40] = 64'd8;
     data_mem[41] = 64'd0;
     data_mem[42] = 64'd0;
     data_mem[43] = 64'd0;
