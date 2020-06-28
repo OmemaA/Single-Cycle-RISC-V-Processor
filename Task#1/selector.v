@@ -14,16 +14,22 @@ begin
             begin
                 if(branch == 1 & ZERO == 0)
                     sel = 1;
+                else
+                    sel = 0;
             end
             3'b000: //beq
             begin
                 if(branch == 1 & ZERO == 1)
                     sel = 1;
+                else
+                    sel = 0;
             end
             3'b101: //bge
             begin
                 if (a >= b)
                     sel = 1;
+                else
+                    sel = 0;
             end
           endcase
         end
