@@ -34,6 +34,6 @@ begin
           endcase
         end
    else
-	    sel <= 0;
+	    sel = 0;
 end
 endmodule
